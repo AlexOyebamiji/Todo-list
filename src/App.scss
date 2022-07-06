@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+$font-stack: Helvetica, sans-serif;
+$lobster: "Lobster", cursive;
+$primary-color: #000;
+$create-text-color: #fff;
+
+.app {
+  font: 100% $font-stack;
+}
+
+.header {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-family: $lobster;
+}
+
+.input {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.input-text {
+  outline: none;
+  margin-right: 12px;
+  width: 40%;
+  height: 23px;
+  margin-bottom: 70px;
+}
+
+.create-button {
+  background-color: $primary-color;
+  color: $create-text-color;
+  border-radius: 5px;
+  padding: 5px 15px 20px 15px;
+  height: 25px;
+}
+
+.container {
+  padding: 10px;
+  margin: auto;
+  width: 60%;
+}
+
+.display-todos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: burlywood;
+  height: 40px;
+  padding: 0 12px 0 12px;
+  border-radius: 12px;
+}
